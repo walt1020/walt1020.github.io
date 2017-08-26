@@ -10,15 +10,17 @@
 
 #mainHeader {
 	background-color: #4aaaa5;
-	color: white;
-	text-align: center;
-	padding: 10px;
-	border: 30px;
-	clear: right;
-	display: inline-block;
-	padding-left: 30px;
-	padding-right: 30px;
-	margin-left: 200px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 30px;
+    clear: right;
+    display: inline-block;
+    padding-left: 43px;
+    padding-right: 45px;
+    margin-left: 200px;
+    width: 230px;
+    box-sizing: border-box;
 }
 
 #navBar {
@@ -55,6 +57,7 @@ a {
 }
 
 #contact {
+	/*border-right: 1px #777777 solid;*/
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -85,10 +88,10 @@ a {
 #infoSection {
 	float: left;
 	width: 638px;
-	height: 474px;
 	background: #ffffff;
 	padding: 0 15px;
 	margin-right: 20px;
+	margin-bottom: 70px;
 }
 
 #aboutMe {
@@ -171,4 +174,55 @@ h1 {
 body {
 background-image: url(../images/subtlepattern.png);
 margin: 0px;
+}
+
+
+#name {
+	font-size: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	width: 100%;
+    padding-left: 8px;
+}
+
+#email {
+	font-size: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	width: 100%;
+    padding-left: 8px;
+}
+
+#message {
+	font-size: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	width: 100%;
+    padding-left: 8px;
+    padding-bottom: 157px;
+}
+
+label {
+	font-size: 16px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin-top: 10px;
+}
+ 
+button {
+	background-color: #4aaaa5;
+	background-color: #4aaaa5;
+    width: 90px;
+    height: 32px;
+    box-sizing: border-box;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+}
+
+input { 
+	margin: 10px 0px 20px 0px;
+	box-sizing: border-box;
+
 }
